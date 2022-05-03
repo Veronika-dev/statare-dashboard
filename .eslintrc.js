@@ -14,6 +14,12 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
+    camelcase: 'off',
+    'max-len': 'off',
+    'class-methods-use-this': 'warn',
+    'vue/valid-v-slot': 'off',
   },
   overrides: [
     {

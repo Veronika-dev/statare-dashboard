@@ -15,15 +15,15 @@ yarn serve
 yarn build
 ```
 
-### Run your unit tests
-```
-yarn test:unit
-```
-
 ### Lints and fixes files
 ```
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Info about the application
+This application is a simple way to manage teams tasks.
+
+Using this application you can:
+- Create, edit and delete tasks
+- Assign tasks to the different teams
+- See visual data on dashboard 
